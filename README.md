@@ -1,31 +1,4 @@
 
-# 电影资源（nodejs爬虫实践）
-
-关注 “乐派电影” 微信公众号，获取更多高清电影资源。
-
-![](https://raw.githubusercontent.com/leiroc/wipe/master/lp.jpg)
-
-# BUG Fixed
-
-> BY ydq
-
-[https://github.com/ydq](https://github.com/ydq "ydq")
-
-> 2016-08-03
-
-
-- 修复reset方法会导致canvas直接全部被涂抹清空的问题
-- 修复resetwipe不能绘制一个点的问题（触摸点击一下不移动产生的数据）
-- 修改onswiping，回调新增了一个参数，可以获取最后一次涂抹的数据
-- 优化合并部分逻辑判断
-- 新增了一个可以同步显示涂抹的demo
-
-
-> ==========
-
-
-- 合并了 wipe.js 和 canvas.js
-- fixed wipe_img bug
 
 # wipe
 Wipe是一款基于HTML5 canvas的移动端，涂抹，自动播放涂抹轨迹，刮刮乐的插件。可以轻松实现，涂抹，记录涂抹轨迹自动播放。
